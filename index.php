@@ -29,10 +29,10 @@ td, th
 </head>
 <body>
 <?php
-require_once 'classes/table.class.php';
+require_once 'classes/autoload.php';
 $t = new table;
-// $t->addHeader(Array('Website name','Address'));
-// $t->addSingleRow(Array('BBC','http://www.bbc.co.uk'));
+$t->addHeader(Array('Website name','Address'));
+$t->addSingleRow(Array('BBC','http://www.bbc.co.uk'));
 echo $t->getTable();
 ?>
 </body>

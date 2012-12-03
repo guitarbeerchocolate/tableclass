@@ -1,5 +1,4 @@
 <?php
-require_once 'html.class.php';
 class table
 {
 	private $outputString = NULL;
